@@ -18,7 +18,5 @@ jobs:
         with:
           go-version: 'stable'
           check-latest: true
-      - name: Build
-        run: make build
       - name: Test
         run: make test
